@@ -1,0 +1,82 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+
+main {
+	margin: 50px auto;
+	max-width: 800px;
+	padding: 0 20px;
+}
+
+h1 {
+	font-size: 2.5em;
+	margin: 0;
+}
+
+p {
+	font-size: 1.2em;
+	line-height: 1.5;
+	margin-bottom: 20px;
+}
+
+.button {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: #333333;
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2em;
+	border-radius: 5px;
+}
+
+.button:hover {
+	background-color: #ff7200;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.icons a{
+    text-decoration: none;
+    color: #000000;
+}
+.icons ion-icon{
+    color: #070707;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #ff7200;
+}
